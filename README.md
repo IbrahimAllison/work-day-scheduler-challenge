@@ -19,7 +19,7 @@ More description here
 **Credits/References** 
 
 a. Starter code cloned from: https://github.com/coding-boot-camp/crispy-octo-meme 
-b. Codes retrieved from: 
+b. Codes retrieved from: https://github.com/njthanhtrang/5.-Third-Party-APIs-Challenge-Work-Day-Scheduler/tree/main
 
 **License** 
 
