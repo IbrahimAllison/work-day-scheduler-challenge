@@ -6,7 +6,7 @@ This project involves the creation of a calendar application, which allows a use
 
 **Motivation for the Project**
 
-I am motivated 
+I am motivated to work on the project because I want to see how a developer uses an API to solve real world scenario. The Work Day Scheduler is similar to a calendar application that a user can use to plan their working day tasks and activities.
 
 **What Problem Does it solve?** 
 
