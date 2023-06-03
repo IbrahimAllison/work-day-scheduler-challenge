@@ -29,8 +29,9 @@ MIT Mi License was used for creating this repository.
 
 **Link to the Deployed Application/Website** 
 
-Here is the link: 
+Here is the link: https://ibrahimallison.github.io/work-day-scheduler-challenge/
 
 **Screenshot of the Deployed Application See the screenshot of the deployed application below**
 
-Here is the link:
+![image](https://github.com/IbrahimAllison/work-day-scheduler-challenge/assets/116689797/cb1cde83-9476-450a-b5fc-74057ebff3fa)
+
