@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh5+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="dawn">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="presentDay" class="lead"></p>
+  </header>
+    <div class="container" id="container-for-timeblock"> <!-- Timeblock for the scheduler starts here -->
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">9:00 AM</h5>
+      <textarea class="text-description col-md-9" id="9" cols="120" rows="3"></textarea> <!--id="9" is the 9th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button> <!--oi oi-lock-locked code was the open-iconic or the booxtrap icon that was used for the padlock icon which was used as save button -->
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">10:00 AM</h5>
+      <textarea class="text-description col-md-9" id="10" cols="120" rows="3"></textarea><!--id="10" is the 10th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">11:00 AM</h5>
+      <textarea class="text-description col-md-9" id="11" cols="120" rows="3"></textarea><!--id="11" is the 11th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">12:00 PM</h5>
+      <textarea class="text-description col-md-9" id="12" cols="120" rows="3"></textarea> <!--id="12" is the 12th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">1:00 PM</h5>
+      <textarea class="text-description col-md-9" id="13" cols="120" rows="3"></textarea> <!--id="13" is the 13th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">2:00 PM</h5>
+      <textarea class="text-description col-md-9" id="14" cols="120" rows="3"></textarea> <!--id="14" is the 14th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">3:00 PM</h5>
+      <textarea class="text-description col-md-9" id="15" cols="120" rows="3"></textarea> <!--id="15" is the 15th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">4:00 PM</h5>
+      <textarea class="text-description col-md-9" id="16" cols="120" rows="3"></textarea> <!--id="16" is the 16th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+    <div class="row time-block-hour-now">
+      <h5 class="hour col-md-2">5:00 PM</h3>
+      <textarea class="text-description col-md-9" id="17" cols="120" rows="3"></textarea> <!--id="17" is the 17th hour-->
+      <button class="saveBtn col-md-1" id="save-schedule"><span class="oi oi-lock-locked"></span></button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
