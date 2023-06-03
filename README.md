@@ -15,7 +15,7 @@ The Work Day Scheduler solves the problem of misplaced priorities by employees a
 **Usage** 
 
 The project contains HTML, CSS, and JavaScript codes. The calendar application will run in the browser. It is editable. 
-A user clicks on the text box beside the scheduled time and enters their event(s) for the time block. The user then clicks on the Save button (Locked Padlock icon) to save their entries or texts. 
+A user clicks on the text box beside the scheduled time and enters their event(s) for the time block. The user then clicks on the Save button (Locked Padlock icon) to save their entries or texts. The events are saved in the Local Storage and persist.
 
 **Credits/References** 
 
