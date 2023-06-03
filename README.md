@@ -21,6 +21,7 @@ A user clicks on the text box beside the scheduled time and enters their event(s
 
 a. Starter code cloned from: https://github.com/coding-boot-camp/crispy-octo-meme 
 b. Codes retrieved from: https://github.com/njthanhtrang/5.-Third-Party-APIs-Challenge-Work-Day-Scheduler/tree/main
+c. Assistance from the instructor.
 
 **License** 
 
