@@ -2,9 +2,11 @@
 
 **Description**
 
+This project involves the creation of a calendar application, which allows a user to enter and save an horly work day events using a regular work day schedule between 9:00 AM and 5:00 PM. 
 
 **Motivation for the Project**
 
+I am motivated 
 
 **What Problem Does it solve?** 
 
